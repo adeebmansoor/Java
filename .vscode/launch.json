@@ -1,0 +1,112 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ExampleArrayList",
+            "request": "launch",
+            "mainClass": "ExampleArrayList",
+            "projectName": "JAVA_cede4d3f"
+        },
+        {
+            "type": "java",
+            "name": "ArrayList",
+            "request": "launch",
+            "mainClass": "ArrayList",
+            "projectName": "JAVA_cede4d3f"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Arrays",
+            "request": "launch",
+            "mainClass": "Arrays",
+            "projectName": "JAVA_cede4d3f"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectName": "JAVA_cede4d3f"
+        },
+        {
+            "type": "java",
+            "name": "MethodsEven_Odd",
+            "request": "launch",
+            "mainClass": "MethodsEven_Odd",
+            "projectName": "JAVA_cede4d3f"
+        },
+        {
+            "type": "java",
+            "name": "MethodsQuestions",
+            "request": "launch",
+            "mainClass": "MethodsQuestions",
+            "projectName": "JAVA_cede4d3f"
+        },
+        {
+            "type": "java",
+            "name": "Patterns",
+            "request": "launch",
+            "mainClass": "Patterns",
+            "projectName": "JAVA_cede4d3f"
+        },
+        {
+            "type": "java",
+            "name": "Patterns2",
+            "request": "launch",
+            "mainClass": "Patterns2",
+            "projectName": "JAVA_cede4d3f"
+        },
+        {
+            "type": "java",
+            "name": "Patterns3",
+            "request": "launch",
+            "mainClass": "Patterns3",
+            "projectName": "JAVA_cede4d3f"
+        },
+        {
+            "type": "java",
+            "name": "QFunctions_Methods",
+            "request": "launch",
+            "mainClass": "QFunctions_Methods",
+            "projectName": "JAVA_cede4d3f"
+        },
+        {
+            "type": "java",
+            "name": "QStrings",
+            "request": "launch",
+            "mainClass": "QStrings",
+            "projectName": "JAVA_cede4d3f"
+        },
+        {
+            "type": "java",
+            "name": "Strings",
+            "request": "launch",
+            "mainClass": "Strings",
+            "projectName": "JAVA_cede4d3f"
+        },
+        {
+            "type": "java",
+            "name": "StringsMethods",
+            "request": "launch",
+            "mainClass": "StringsMethods",
+            "projectName": "JAVA_cede4d3f"
+        },
+        {
+            "type": "java",
+            "name": "StringsMethodsQues",
+            "request": "launch",
+            "mainClass": "StringsMethodsQues",
+            "projectName": "JAVA_cede4d3f"
+        }
+    ]
+}
