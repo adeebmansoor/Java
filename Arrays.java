@@ -131,7 +131,7 @@ public class Arrays{
     static void sumMatrix(int[][] arr1, int[][] arr2, int row1, int row2, int col1, int col2){
         // Creation of 3rd array matrix
         int[][] sumArray = new int[row1][col1]; // rows & cols of sumArray will also be equal to arr1 & arr2
-        if(row1 == row2 && col1 == col2){
+        if(row1==row2 && col1==col2){
             for(int i=0; i<row1; i++){
                 for(int j=0; j<col2; j++){
                     sumArray[i][j] = arr1[i][j] + arr2[i][j];
@@ -141,7 +141,7 @@ public class Arrays{
         // Display of sumArray
         for(int i=0; i<row1; i++){
             for(int j=0; j<col2; j++){
-                System.out.print(sumArray[i][j] + " ");
+                System.out.print(sumArray[i][j]+" ");
             }
             System.out.println();
         }
@@ -169,7 +169,7 @@ public class Arrays{
         for(int i=0; i<row2; i++){
             for(int j=0; j<col2; j++){
                 System.out.print("Enter the elements of 1st array: ");
-                arr1[i][j] = sc.nextInt();
+                arr2[i][j] = sc.nextInt();
             }
         }
         sumMatrix(arr1, arr2, row1, row2, col1, col2);
