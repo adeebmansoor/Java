@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "QArrays",
+            "request": "launch",
+            "mainClass": "QArrays",
+            "projectName": "JAVA_cede4d3f"
+        },
+        {
+            "type": "java",
             "name": "ExampleHashSet",
             "request": "launch",
             "mainClass": "ExampleHashSet",
