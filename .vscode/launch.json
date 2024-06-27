@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BinarySearch",
+            "request": "launch",
+            "mainClass": "BinarySearch",
+            "projectName": "JAVA_cede4d3f"
+        },
+        {
+            "type": "java",
+            "name": "CollectionSet",
+            "request": "launch",
+            "mainClass": "CollectionSet",
+            "projectName": "JAVA_cede4d3f"
+        },
+        {
+            "type": "java",
+            "name": "CollectionStack",
+            "request": "launch",
+            "mainClass": "CollectionStack",
+            "projectName": "JAVA_cede4d3f"
+        },
+        {
+            "type": "java",
+            "name": "CollectionArrayList",
+            "request": "launch",
+            "mainClass": "CollectionArrayList",
+            "projectName": "JAVA_cede4d3f"
+        },
+        {
+            "type": "java",
+            "name": "CollectionLinkedList",
+            "request": "launch",
+            "mainClass": "CollectionLinkedList",
+            "projectName": "JAVA_cede4d3f"
+        },
+        {
+            "type": "java",
+            "name": "ExampleHashMap",
+            "request": "launch",
+            "mainClass": "ExampleHashMap",
+            "projectName": "JAVA_cede4d3f"
+        },
+        {
+            "type": "java",
             "name": "QArrays",
             "request": "launch",
             "mainClass": "QArrays",

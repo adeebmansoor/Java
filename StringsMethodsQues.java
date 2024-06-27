@@ -1,4 +1,5 @@
 // import java.util.Scanner;
+
 public class StringsMethodsQues {
     // Ques 1. WAP to find the length of a String without using the length function (length())?
     // static int count(String str){
@@ -190,12 +191,56 @@ public class StringsMethodsQues {
     // }
 
     // Ques 7. WAP to check valid email address?
+    // public static boolean check(String email){
+    //     String[] word = email.split("@");
+    //     char[] ch = word[0].toCharArray();
+    //     for(char c : ch){
+    //         if(c >= 'a' && c <= 'z' || c >= '0' && c <= '9' || c == '.' && c == ' '){
+    //             return true;
+    //         }
+    //     }
+    //     return false;
+    // }
+    // public static void main(String[] args) {
+    //     Scanner sc = new Scanner(System.in);
+    //     System.out.print("Enter the Email: ");
+    //     String email = sc.nextLine();
+    //     if(check(email) == true){
+    //         System.out.println("This Email is valid");
+    //     }
+    //     else{
+    //         System.out.println("This Email is not valid");
+    //     }
+    // }
 
     // Ques 8. WAP to replace a word from a given String?
     // Ex:- Input:- Bhopal, is the city of pools.
     //      Output:- Bhopal, is the city of lakes.
-    public static void main(String[]args){
-        String s1 = "Bhopal, is the city of pools.";
-        System.out.println(s1.replace("pools","lakes"));
-    }
+    // public static void main(String[]args){
+    //     String s1 = "Bhopal, is the city of pools.";
+    //     System.out.println(s1.replace("pools","lakes"));
+    // }
+
+    // Another Method:-
+    // public static String ReplaceWord(String str, String replaceWord, String replace){
+    //     String[] word = str.split(" ");
+    //     StringBuilder sb = new StringBuilder();
+    //     for(int i=0; i<word.length; i++){
+    //         if(replaceWord.equals(word[i])){
+    //             sb.append(replace);
+    //             sb.append(" ");
+    //         }
+    //         else{
+    //             sb.append(word[i]);
+    //             sb.append(" ");
+    //         }
+    //     }
+    //     return new String(sb);
+    // }
+    // public static void main(String[] args) {
+    //     String str = "Bhopal, is the city of Pools.";
+    //     String replaceWord = "Pools";
+    //     String replace = "Lakes";
+    //     System.out.println(ReplaceWord(str, replaceWord, replace));
+    // }
 }

@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.Iterator;
-public class ExampleArrayList{
+public class CollectionArrayList{
     public static void main(String[] args) {
         ArrayList<Integer> al = new ArrayList<>();
         al.add(10);
@@ -23,6 +23,8 @@ public class ExampleArrayList{
         al.remove(Integer.valueOf(20));
         System.out.println(al);
 
+        System.out.println(al.addAll(al2));
+
         // al.clear();
         // System.out.println(al);
 
@@ -44,13 +46,13 @@ public class ExampleArrayList{
 
 // insert(int index, value) : this method insert element at particular index.
 
-// addAll(int index: ) : it is used to return element at particular element.
+// addAll(int index: ) : it is used to insert and return element of one Arraylist to with another.
 
 // get(int index) : this method is use to return element at particular index.
 
 // remove(int index) : this method removes element at particular index.
 
-// remove(Integer.valueOf(int value)) : this method id use to remove a particular/targeted value from the list.
+// remove(Integer.valueOf(int value)) : this method is use to remove a particular/targeted value from the list.
 
 // clear() : it is used to clear all the elements from the list.
 
