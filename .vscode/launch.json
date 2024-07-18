@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InheritanceOops",
+            "request": "launch",
+            "mainClass": "InheritanceOops",
+            "projectName": "JAVA_cede4d3f"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "BubbleSort",
+            "projectName": "JAVA_cede4d3f"
+        },
+        {
+            "type": "java",
+            "name": "LinearSearch",
+            "request": "launch",
+            "mainClass": "LinearSearch",
+            "projectName": "JAVA_cede4d3f"
+        },
+        {
+            "type": "java",
             "name": "BinarySearch",
             "request": "launch",
             "mainClass": "BinarySearch",

@@ -33,7 +33,7 @@ public class CollectionSet {
         set.add(arr[i]);
     }
     for(Object i : set.toArray()){
-        System.out.println(i);
+        System.out.print(i + " ");
     }
 }
 }
