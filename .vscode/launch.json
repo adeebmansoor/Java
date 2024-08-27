@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CollectionDeque",
+            "request": "launch",
+            "mainClass": "CollectionDeque",
+            "projectName": "JAVA_cede4d3f"
+        },
+        {
+            "type": "java",
+            "name": "CollectionPriorityQueue",
+            "request": "launch",
+            "mainClass": "CollectionPriorityQueue",
+            "projectName": "JAVA_cede4d3f"
+        },
+        {
+            "type": "java",
+            "name": "CollectionQueue",
+            "request": "launch",
+            "mainClass": "CollectionQueue",
+            "projectName": "JAVA_cede4d3f"
+        },
+        {
+            "type": "java",
             "name": "InheritanceOops",
             "request": "launch",
             "mainClass": "InheritanceOops",
